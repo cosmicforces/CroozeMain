@@ -5,7 +5,7 @@ import { Button } from '@/components';
 
 type IMainProps = {
   meta: ReactNode;
-  children: ReactNode;
+  children?: ReactNode;
 };
 
 const Main = (props: IMainProps) => {
@@ -54,7 +54,11 @@ const Main = (props: IMainProps) => {
           <Button
             image={`${router.basePath}/assets/images/button_twitter.png`}
           />
-          <Button image={`${router.basePath}/assets/images/button_arrow.png`} />
+        </div>
+        <div className="fixed bottom-0 right-0 mr-10 mb-4">
+          <Button
+            image={`${router.basePath}/assets/images/downward_arrow.png`}
+          />
         </div>
       </div>
     </div>
