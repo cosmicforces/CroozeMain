@@ -38,7 +38,7 @@ const Main = (props: IMainProps) => {
             link="https://marketplace.croozenft.com"
           />
         </div>
-        <div className="fixed top-0 right-0 mr-2 flex h-full flex-col items-center justify-center">
+        <div className="fixed top-0 right-0 -z-10 mr-2 flex h-full flex-col items-center justify-center">
           <Button
             image={`${router.basePath}/assets/images/button_whitepaper.png`}
           />
