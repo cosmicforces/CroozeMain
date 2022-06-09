@@ -3,9 +3,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
 
-export default withBundleAnalyzer({
+module.exports = withBundleAnalyzer({
   eslint: {
-    dirs: ['.'],
+    dirs: ['./src'],
   },
   poweredByHeader: false,
   trailingSlash: true,
