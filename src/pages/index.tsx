@@ -7,14 +7,7 @@ const Index = () => {
   const router = useRouter();
 
   return (
-    <Main
-      meta={
-        <Meta
-          title="Crooze"
-          description="Crooze NFT Game"
-        />
-      }
-    >
+    <Main meta={<Meta title="Crooze" description="Crooze NFT Game" />}>
       <a href="https://github.com/ixartz/Next-js-Boilerplate">
         <img
           src={`${router.basePath}/assets/images/nextjs-starter-banner.png`}
