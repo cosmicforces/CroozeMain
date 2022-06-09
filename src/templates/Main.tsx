@@ -21,24 +21,7 @@ const Main = (props: IMainProps) => {
           )`,
         }}
       >
-        <div className="mr-4 flex flex-row-reverse">
-          <Button
-            className="m-2 h-12 w-32"
-            image={`${router.basePath}/assets/images/button_login.png`}
-            link="http://3.83.230.174/crooze/"
-          />
-          <Button
-            className="m-2 h-12 w-32"
-            image={`${router.basePath}/assets/images/button_play.png`}
-            link="http://3.83.230.174/crooze/"
-          />
-          <Button
-            className="m-2 h-12 w-32"
-            image={`${router.basePath}/assets/images/button_marketplace.png`}
-            link="https://marketplace.croozenft.com"
-          />
-        </div>
-        <div className="fixed top-0 right-0 -z-10 mr-2 flex h-full flex-col items-center justify-center">
+        <div className="fixed top-0 right-0 mr-2 flex h-full flex-col items-center justify-center">
           <Button
             image={`${router.basePath}/assets/images/button_whitepaper.png`}
           />
@@ -53,6 +36,23 @@ const Main = (props: IMainProps) => {
           />
           <Button
             image={`${router.basePath}/assets/images/button_twitter.png`}
+          />
+        </div>
+        <div className="fixed right-0 mr-4 flex">
+          <Button
+            className="m-2 h-12 w-32"
+            image={`${router.basePath}/assets/images/button_marketplace.png`}
+            link="https://marketplace.croozenft.com"
+          />
+          <Button
+            className="m-2 h-12 w-32"
+            image={`${router.basePath}/assets/images/button_play.png`}
+            link="http://3.83.230.174/crooze/"
+          />
+          <Button
+            className="m-2 h-12 w-32"
+            image={`${router.basePath}/assets/images/button_login.png`}
+            link="http://3.83.230.174/crooze/"
           />
         </div>
         <div className="fixed bottom-0 right-0 mr-10 mb-4">
