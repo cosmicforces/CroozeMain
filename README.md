@@ -1,4 +1,4 @@
-# Crooze Homepage(https://twitter.com/ixartz)
+# Crooze Homepage
 
 <p align="center">
   <a href="https://croozenft.com/"><img src="public/assets/images/bg.png?raw=true" alt="Crooze Banner"></a>
