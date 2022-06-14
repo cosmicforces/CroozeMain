@@ -42,7 +42,8 @@ const Main = (props: IMainProps) => {
           <Button
             className="m-2 h-12 w-32"
             image={`${router.basePath}/assets/images/button_marketplace.png`}
-            link="https://marketplace.croozenft.com"
+            // link="https://marketplace.croozenft.com"
+            link="https://devm.croozenft.com"
           />
           <Button
             className="m-2 h-12 w-32"
